@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>МИССИС МЯВОЧКА</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <style type="text/css">
+        body {
+            padding: 1%;
+        }
+        a {
+                color: #858585;
+            }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header"><a href="index.html"><img id="1" height="50" src="./img/cat.png"></a></div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">главная</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        о котиках
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="aboutcats.html#2">как усыновить котика</a>
+                        <a class="dropdown-item" href="aboutcats.html#3">уход и знакомство</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="aboutcats.html#5">наши котики</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        магазин
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="shop.html#2">товары</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="shop.html#3">форма для заказа</a>
+                        <div class="dropdown-divider"></div>
+                    </div>
+                </li>
+                <li class="active"><a href="adoption.html">форма для усыновления</a></li>
+                <li><a href="about.html">о нас</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <p>Для поисковика:<input type="Text" name="q" value="search"></p>
+        <p>Фамилия: <input type="Text" name="last_name" size=20 value="Котова"></p>
+        <p>Имя: <input type="Text" name="first_name" size=20 value="Кошечка"></p>
+        <p>Есть ли у тебя кот?
+            <input type="radio" name="possession" value="есть"> есть
+            <input type="radio" name="possession" value="нет" checked="checked"> нет
+        </p>
+        <p>Сколько у тебя уже котов? <input type="Number" name="amount" size=20 value="0"></p>
+        <p>Кого хочешь усыновить?
+            <select name="cat_name">
+                <OPTION value="Мотя">Мотя</OPTION>
+                <OPTION value="Симка">Симка</OPTION>
+                <OPTION value="Мявочка">Мявочка</OPTION>
+                <OPTION value="Пупсикенс">Симка</OPTION>
+                <OPTION value="Барсик">Барсик</OPTION>
+                <OPTION value="Мурка">Мурка</OPTION>
+                <OPTION value="Малыш">Малыш</OPTION>
+                <OPTION value="Васька">Васька</OPTION>
+                <OPTION value="Муся">Муся</OPTION>
+                <OPTION value="Китя">Китя</OPTION>
+                <OPTION value="Жорик">Жорик</OPTION>
+                <OPTION value="Окич">Окич</OPTION>
+            </select>
+        </p>
+        <p>Номер телефона:
+            <TEXTAREA cols=80 name="phone_number" rows=1>+7(ххх)ххххххх</TEXTAREA>
+        </p>
+        <p>Электронная почта:
+            <TEXTAREA cols=80 name="email" rows=1>takemehome@email.ru</TEXTAREA>
+        </p>
+
+        <p>Дата заявки: <input type="date" name="user_date" value='2023-01-01'></p>
+        <p>Дата приезда в приют: <input type="date" name="user_date" value='2023-01-01'></p>
+
+        <p>Отзыв на сайт: <br>
+            <TEXTAREA cols=80 name="email" rows=4>Очень классно!</TEXTAREA>
+        </p>
+        <p>Отзыв на приют:<br>
+            <TEXTAREA cols=80 name="email" rows=4>Вы молодцы!</TEXTAREA>
+        </p>
+        <p>Пароль: <input type="Password" name="password" size=9 value="12345"></p>
+        <p>
+            <input type="Reset" name="Reset" value="Обновить">
+            <input type="Submit" name="submit" value="Отправить">
+        </p>
+        <input type="hidden" name="function" value="page">
+        <input type="hidden" name="page_id" value="3">
+    </form>
+</div>
+
+<div class="container text-right"><br><a href="#1"><p>наверх</p></a></div>
+<div class="container">
+    <footer class="bg-body-tertiary text-center">
+        <section class="panel-footer">
+            <div class="row">
+                <small>КОНТАКТЫ</small></h3><br>
+                <div class="col-md-6">
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a class="text-body" href="https://t.me/mebeebb" target="_blank">телеграм</a>
+                        </li>
+                        <li>
+                            <a class="text-body" href="https://instagram.com/mebeeb__?igshid=bjVxbzFzNDZ4Z295"
+                               target="_blank">инстаграмм</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 \">
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a class="text-body" href="#!">88005553535</a>
+                        </li>
+                        <li>
+                            <a class="text-body" href="#!">takemehome@email.ru</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+</div>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
